@@ -78,6 +78,10 @@ def aiutidistato():
 def aiutidistato_eng():
     return render_template('aiutidistato_eng.html')
 
+@app.route('/arbitrati')
+def arbitrati():
+    return render_template('arbitrati.html')
+
 @app.route('/arbitrati_eng')
 def arbitrati_eng():
     return render_template('arbitrati_eng.html')
@@ -132,5 +136,6 @@ def pubblicazionimercatienergia_eng():
 
 if __name__ == "__main__":
     app.run()
+
 
 
