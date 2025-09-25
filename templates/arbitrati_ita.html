@@ -1,0 +1,116 @@
+{% extends 'index.html' %}
+
+{% block content %}
+
+
+<!-- Tabella da mostrare con screen size da PC -->
+<div class="container mt-4 d-none d-lg-block">
+
+<div class="card text-center">
+  <div class="card-header">
+    <ul class="nav nav-tabs card-header-tabs">
+      <li class="nav-item">
+        <a class="nav-link button-fancy" href="/ass_agcm"  style="font-size: min(16px, 1.15vw);">Assistenza in procedimenti <br>antitrust con AGCM</a>
+      </li>
+      <li class="nav-item border rounded-top">
+        <a class="nav-link button-fancy" href="/danni" style="font-size: min(16px, 1.05vw);">Identificazione e quantificazione <br>  danni antitrust, IP e contratti </a>
+      </li>
+      <li class="nav-item border rounded-top">
+        <a class="nav-link button-fancy" href="/energia"  style="font-size: min(16px, 1.05vw);">Mercati <br> dell'energia</a>
+      </li>
+      <li class="nav-item border rounded-top">
+        <a class="nav-link disabled" href="#" style="font-size: min(16px, 1.05vw);">Proprietà intellettuale: <br> valutazione e contenzioso</a>
+      </li>
+      <li class="nav-item border rounded-top">
+        <a class="nav-link button-fancy" style="font-size: min(16px, 1.05vw);">Consulenza <br> regolatoria</a>
+      </li>
+      <li class="nav-item border rounded-top">
+        <a class="nav-link button-fancy" style="font-size: min(16px, 1.05vw);">Aiuti <br> di Stato</a>
+      </li>
+      <li class="nav-item border rounded-top">
+        <a class="nav-link active" href="#" style="color: #142d4c; font-size: min(16px, 1.05vw);"><strong> &nbsp; <br>Arbitrati </strong></a>
+      </li>
+    </ul>
+  </div>
+  <div class="card-body">
+  
+  <div class="row">
+   <div class="col-1"><img style="margin-bottom: 5px; width: 90px;" src="https://raw.githubusercontent.com/EmanueleApostolo/Beta-Consulenze-Economiche/main/static/images/hammer%202.png"></div>
+    
+    <div class="card-text col text-start" style="font-size: 18px; margin-left: 10px">
+    <h3 class="card-title mt-2" style="color: #142d4c;"><strong>&nbsp; <br> Arbitrati </strong>   </h3>
+    <p class="card-text text-start mt-3" >
+
+Gli arbitrati richiedono una serie di skills di natura piuttosto differenti, poiché tipicamente
+l’economista interviene come esperto e deve sostenere il confronto con una controparte
+ugualmente tecnica, ma deve convincere gli arbitri che normalmente sono giuristi.
+
+     </p>
+     <p class="card-text text-start">
+
+Il primo elemento necessario è quella credibilità che in sede arbitrale deriva principalmente
+da un'analisi approfondita dei problemi e da un utilizzo dei dati rigoroso ma equilibrato.
+
+      </p>
+      
+       <p class="card-text text-start">
+
+  Il nostro Studio coniuga l’esperienza di ricerca sul tema degli aiuti di Stato, necessaria per analizzare le politiche pubbliche, con quella nella consulenza, ugualmente necessaria per coniugare l’analisi delle politiche con il punto di vista delle imprese.
+
+          </p>
+  
+  <p align="left"><a  class="navbar-brand" href="/"><button class="button2" type="button" style="margin-top: 15px;"> <h3 class="display-3" style="font-size: 25px;"><strong>Torna alla home</strong>  &nbsp;<i class="bi bi-house-fill" style="font-size: 25px;"></i></h3></button></a></p>
+  
+ </div>
+   </div>
+  </div>
+</div>
+
+</div>
+
+<!-- Tabella da mostrare con screen size da smartphone -->
+<div class="container mt-4 d-lg-none">
+
+<div class="card text-center">
+  <div class="card-header">
+    <ul class="nav nav-tabs card-header-tabs">
+      <li class="nav-item">
+         <a class=" nav-link active" style="color: #142d4c; font-size: 14px;"><div class="row"><img style="margin-bottom: 5px; width: 70px;" src="https://raw.githubusercontent.com/EmanueleApostolo/Beta-Consulenze-Economiche/main/static/images/hammer%202.png"><div class="col"><strong> &nbsp; <br>Arbitrati</strong></div></div></a>
+      </li>
+    </ul>
+  </div>
+  <div class="card-body">
+  
+
+    <div class="card-text col text-start" style="font-size: 14px;">
+   
+          <p class="card-text text-start mt-3" >
+
+      Gli arbitrati richiedono una serie di skills di natura piuttosto differenti, poiché tipicamente
+      l’economista interviene come esperto e deve sostenere il confronto con una controparte
+      ugualmente tecnica, ma deve convincere gli arbitri che normalmente sono giuristi.
+
+           </p>
+           <p class="card-text text-start">
+
+      Il primo elemento necessario è quella credibilità che in sede arbitrale deriva principalmente
+      da un'analisi approfondita dei problemi e da un utilizzo dei dati rigoroso ma equilibrato.
+
+            </p>
+            
+             <p class="card-text text-start">
+
+        Il nostro Studio coniuga l’esperienza di ricerca sul tema degli aiuti di Stato, necessaria per analizzare le politiche pubbliche, con quella nella consulenza, ugualmente necessaria per coniugare l’analisi delle politiche con il punto di vista delle imprese.
+
+                </p>
+              
+               <p align="center"><a  class="navbar-brand" href="/"><button class="button3" type="button" style="margin-top: 15px;"> <h3 class="display-3" style="font-size: 15px;"><strong>Torna alla home</strong>  &nbsp;<i class="bi bi-house-fill" style="font-size: 15px;"></i></h3></button></a></p>
+               
+
+   </div>
+  </div>
+</div>
+
+</div>
+
+{% endblock %}

@@ -1,0 +1,1176 @@
+{% extends 'index.html' %}
+
+{% block content %}
+
+<div class="container">
+
+
+<!-- Background image mostrata quando lo screen-size è da pc -->
+<div class="d-none d-lg-block bg-image d-flex" style="background-image: url('./static/images/desk.webp'); background-size: cover; height: 425px; ">
+
+  <div class="row">
+    <div class="col text-center">
+       <svg class="bi" width="40" height="32" role="img" aria-label="Bootstrap"><img src="https://raw.githubusercontent.com/EmanueleApostolo/Beta-Consulenze-Economiche/main/static/images/Logo CE.png" width="350" alt="Logo"></use></svg>
+    </div>
+  </div>
+
+   
+   <!-- Carousel -->
+    <div id="carouselExampleAutoplaying" class="carousel carousel-dark  slide" data-bs-ride="carousel" style="margin-top: 35px;">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+  <div class="row" style="margin-top: 30px">
+   <div class="col-2 d-flex justify-content-center">
+   </div>
+     <div class="col d-flex justify-content-center text-center">
+        <h3 style="color: #142d4c; margin-top: 25px;">Siamo uno studio specializzato in antitrust, arbitrati, consulenza regolatoria, mercati dell'energia e proprietà intellettuale.
+         </h3>
+     </div>
+     <div class="col-2 d-flex justify-content-center">
+     </div>
+   </div>
+    </div>
+     <div class="carousel-item">
+         <div class="row" style="margin-top: 30px">
+         <div class="col-2 d-flex justify-content-center">
+         </div>
+           <div class="col d-flex justify-content-center text-center">
+              <h3 style="color: #142d4c; margin-top: 25px;">Assistiamo in tandem con i migliori studi legali del Paese alcune delle maggiori imprese nazionali, nonché i maggiori investitori istituzionali e tribunali.
+               </h3>
+               </h3>
+           </div>
+           <div class="col-2 d-flex justify-content-center">
+           </div>
+         </div>
+     </div>
+    <div class="carousel-item">
+       <div class="row" style="margin-top: 30px">
+        <div class="col-2 d-flex justify-content-center">
+        </div>
+          <div class="col d-flex justify-content-center text-center">
+             <h3 style="color: #142d4c; margin-top: 25px;">Il nostro è un approccio flessibile e vicino alle esigenze del cliente in tutte le fasi del confronto formale o informale con finanziatori, autorità amministrative e autorità giudiziarie.
+              </h3>
+          </div>
+          <div class="col-2 d-flex justify-content-center">
+          </div>
+        </div>
+    </div>
+    <div class="carousel-item">
+     <div class="row" style="margin-top: 30px">
+      <div class="col-2 d-flex justify-content-center">
+      </div>
+        <div class="col d-flex justify-content-center text-center">
+           <h3 style="color: #142d4c;">La nostra attività si fonda su una solida esperienza di ricerca, maturata sia in ambito teorico che in ambito pratico, potendo contare su un team di economisti con eccellente formazione, spiccate capacità analitiche e grande motivazione.
+            </h3>
+        </div>
+        <div class="col-2 d-flex justify-content-center">
+        </div>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+</div>
+
+
+<!-- Background image mostrata quando lo screen-size è da smartphone -->
+<div class="d-lg-none bg-image" style="background-image: url('./static/images/desk.webp'); background-size: cover; min-height: 250px; ">
+
+ <div class="row">
+   <div class="col d-flex justify-content-center">
+      <svg class="bi" width="40" height="32" role="img" aria-label="Bootstrap" style="margin-left: -30px;"><img src="./static/images/Logo CE.png" width="200" alt="Logo"></use></svg>
+   </div>
+ </div>
+ 
+ 
+  <!-- Carousel -->
+    <div id="carouselExampleAutoplaying" class="carousel carousel-dark slide" data-bs-ride="carousel" style="margin-top: -15px;">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+  <div class="row" style="margin-top: 30px">
+   <div class="col-1 d-flex justify-content-center">
+   </div>
+     <div class="col d-flex justify-content-center text-center">
+        <h3 style="color: #142d4c; font-size: 18px;">Siamo uno studio specializzato in antitrust, arbitrati, consulenza regolatoria, mercati dell'energia e proprietà intellettuale.
+         </h3>
+     </div>
+     <div class="col-1 d-flex justify-content-center">
+     </div>
+   </div>
+    </div>
+     <div class="carousel-item">
+         <div class="row" style="margin-top: 30px">
+         <div class="col-1 d-flex justify-content-center">
+         </div>
+           <div class="col d-flex justify-content-center text-center">
+              <h3 style="color: #142d4c; font-size: 18px;">Assistiamo in tandem con i migliori studi legali del Paese alcune delle maggiori imprese nazionali, nonché i maggiori investitori istituzionali e tribunali.
+               </h3>
+               </h3>
+           </div>
+           <div class="col-1 d-flex justify-content-center">
+           </div>
+         </div>
+     </div>
+    <div class="carousel-item">
+       <div class="row" style="margin-top: 30px">
+        <div class="col-1 d-flex justify-content-center">
+        </div>
+          <div class="col d-flex justify-content-center text-center">
+             <h3 style="color: #142d4c; font-size: 18px;">Il nostro è un approccio flessibile e vicino alle esigenze del cliente in tutte le fasi del confronto con finanziatori, autorità amministrative e giudiziarie.
+              </h3>
+          </div>
+          <div class="col-1 d-flex justify-content-center">
+          </div>
+        </div>
+    </div>
+    <div class="carousel-item">
+     <div class="row" style="margin-top: 30px">
+      <div class="col-1 d-flex justify-content-center">
+      </div>
+        <div class="col d-flex justify-content-center text-center">
+           <h3 style="color: #142d4c; font-size: 18px;">La nostra attività si fonda su una solida esperienza di ricerca, maturata sia in ambito teorico che in ambito pratico.
+            </h3>
+        </div>
+        <div class="col-1 d-flex justify-content-center">
+        </div>
+      </div>
+    </div>
+        <div class="carousel-item">
+         <div class="row" style="margin-top: 30px">
+          <div class="col-1 d-flex justify-content-center">
+          </div>
+            <div class="col d-flex justify-content-center text-center">
+                <h3 style="color: #142d4c; font-size: 18px;">Possiamo contare su un team di economisti con eccellente formazione, spiccate capacità analitiche e grande motivazione.
+                </h3>
+            </div>
+            <div class="col-1 d-flex justify-content-center">
+            </div>
+          </div>
+        </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+</div>
+
+
+<!-- Riga di separazione mostrata quando lo screen size è da pc -->
+<div class="container d-none d-lg-block" style="margin-top: 80px">
+ <div class="row">
+<div class="col-lg-2">
+</div>
+<div class="col-lg-8">
+<hr class="hr hr-blurry" />
+</div>
+</div>
+</div>
+
+<!-- Riga di separazione mostrata quando lo screen size è da smartphone -->
+<div class="container d-lg-none" style="margin-top: 40px">
+ <div class="row">
+<div class="col-lg-2">
+</div>
+<div class="col-lg-8">
+<hr class="hr hr-blurry" />
+</div>
+</div>
+</div>
+
+
+<!-- Sezione chi siamo mostrata quando lo screen size è da pc -->
+
+<div class="container mt-2 d-none d-lg-block">
+
+<div class="row"  style="margin-top: 80px;">
+
+<div class="col-1">
+</div>
+
+<div class="col justify-content-center" align="center">
+<div class="card mb-3" style="max-width: 1000px;">
+  <div class="row g-0">
+    <div class="col-md-6">
+      <img src="https://raw.githubusercontent.com/EmanueleApostolo/Beta-Consulenze-Economiche/main/static/images/Carlo Scarpa.webp" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-6">
+      <div class="card-body text-start" >
+        <h2 class="card-title" style="color: #142d4c;"><strong> Chi siamo </strong> <i class="bi bi-info-circle"></i></h2>
+        <p class="card-text" style="font-size: 20px; margin-top: 20px;">Lo studio di Consulenze Economiche nasce dall'esperienza di ricerca e di consulenza del Prof. Carlo Scarpa e del suo team di collaboratori.
+<br>Il focus della nostra attività è l'analisi economica dei problemi affrontati dalle imprese che si devono rapportare con le autorità di concorrenza e/o di regolazione oppure coi tribunali.</p>
+        <p class="card-text"><small class="text-muted" style="font-size: 18px;">Carlo Scarpa - Fondatore Studio CE</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="col-1">
+</div>
+
+</div>
+
+</div>
+
+<!-- Sezione chi siamo mostrata quando lo screen size è da smartphone -->
+
+<div class="container mt-4 d-lg-none">
+
+<div class="row"  style="margin-top: 40px;">
+
+
+<div class="col justify-content-center" align="center">
+<div class="card mb-3" style="max-width: 350px;">
+  <div class="row g-0">
+    <div class="col-md-12">
+      <img src="https://raw.githubusercontent.com/EmanueleApostolo/Beta-Consulenze-Economiche/main/static/images/Carlo Scarpa.webp" class="img-fluid rounded-top" alt="...">
+    </div>
+    <div class="col">
+      <div class="card-body text-start" >
+        <h2 class="card-title" style="color: #142d4c;"><strong> Chi siamo </strong> <i class="bi bi-info-circle"></i></h2>
+        <p class="card-text" style="font-size: 17px;">Lo studio di Consulenze Economiche nasce dall'esperienza di ricerca e di consulenza del Prof. Carlo Scarpa e del suo team di collaboratori.
+<br>Il focus della nostra attività è l'analisi economica dei problemi affrontati dalle imprese che si devono rapportare con le autorità di concorrenza o di regolazione, coi tribunali oppure con il mondo della finanza per acquisizioni o progetti infrastrutturali.</p>
+        <p class="card-text"><small class="text-muted" style="font-size: 15px;">Carlo Scarpa - Fondatore Studio CE</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<!-- Riga di separazione mostrata quando lo screen size è da pc -->
+<div class="container d-none d-lg-block" style="margin-top: 80px">
+ <div class="row">
+<div class="col-lg-2">
+</div>
+<div class="col-lg-8">
+<hr class="hr hr-blurry" />
+</div>
+</div>
+</div>
+
+<!-- Riga di separazione mostrata quando lo screen size è da smartphone -->
+<div class="container d-lg-none" style="margin-top: 20px">
+ <div class="row">
+<div class="col-lg-2">
+</div>
+<div class="col-lg-8">
+<hr class="hr hr-blurry" />
+</div>
+</div>
+</div>
+
+
+<!-- Sezione la nostra attività mostrata quando lo screen size è da pc -->
+<div class="container mt-2 d-none d-lg-block" style="color: #142d4c;" >
+ <div class="row" style="margin-top: 80px">
+<div class="col-lg-2">
+</div>
+<div class="col-lg-8">
+<h1 style="margin-left: -60px"><strong>Aree di attività</strong> <i class="bi bi-search"></i></h1>
+</div>
+</div>
+
+<div class="row" align="center" style="margin-top: 40px; margin-left: 230px;">
+<div class="col-lg-3">
+<a type="button" class="up" style="text-decoration:none; margin-top: 22px" href="/ass_agcm">
+<div class="row" style="color: #142d4c">
+<i class="bi bi-shield-shaded" style="font-size: 70px;"></i>
+</div>
+<div class="row" style="color: #142d4c">
+<h6 style="color: black; font-size: 20px;">Assistenza in procedimenti antitrust con AGCM</h6>
+</div>
+</a>
+</div>
+<div class="col-lg-4">
+<a type="button" class="up" style="text-decoration:none; margin-top: 22px" href="/danni">
+<div class="row" style="color: #142d4c">
+<i class="bi bi-pie-chart-fill" style="font-size: 70px;"></i>
+</div>
+<div class="row" style="color: #142d4c">
+<h6 style="color: black; font-size: 20px;">Identificazione e quantificazione danni <br>antitrust, IP e contratti</h6>
+</div>
+</a>
+</div>
+<div class="col-lg-3">
+<a type="button" class="up" style="text-decoration:none; margin-top: 22px" href="/">
+<div class="row" style="color: #142d4c">
+<i class="bi bi-battery-charging" style="font-size: 70px;"></i>
+</div>
+<div class="row" style="color: #142d4c">
+<h6 style="color: black; font-size: 20px;">Mercati <br> dell'energia</h6>
+</div>
+</a>
+</div>
+</div>
+
+<div class="row" align="center" style="margin-top: 15px; margin-left: 230px;">
+<div class="col-lg-3">
+<a type="button" class="up" style="text-decoration:none; margin-top: 22px" href="/">
+<div class="row" style="color: #142d4c">
+<i class="bi bi-lightbulb" style="font-size: 70px;"></i>
+</div>
+<div class="row" style="color: #142d4c">
+<h6 style="color: black; font-size: 20px;">Proprietà intelletuale: <br> valutazione e contenzioso</h6>
+</div>
+</a>
+</div>
+<div class="col-lg-4">
+<a type="button" class="up" style="text-decoration:none; margin-top: 22px" href="/regolatorio">
+<div class="row" style="color: #142d4c">
+<i class="bi bi-clipboard-check" style="font-size: 70px;"></i>
+</div>
+<div class="row" style="color: #142d4c">
+<h6 style="color: black; font-size: 20px;">Consulenza <br> regolatoria</h6>
+</div>
+</a>
+</div>
+<div class="col-lg-3">
+<a type="button" class="up" style="text-decoration:none; margin-top: 22px" href="/aiuti_stato">
+<div class="row" style="color: #142d4c">
+<i class="bi bi-umbrella-fill" style="font-size: 70px;"></i>
+</div>
+<div class="row" style="color: #142d4c">
+<h6 style="color: black; font-size: 20px;">Aiuti <br> di stato</h6>
+</div>
+</a>
+</div>
+</div>
+
+<div class="row" align="center" style="margin-top: 15px; margin-left: 230px;">
+<div class="col-lg-3">
+<div class="row">
+</div>
+<div class="row">
+</div>
+</div>
+
+<div class="col-lg-4 ">
+<a type="button" class="up" style="text-decoration:none; margin-top: 22px" href="/">
+<div class="row justify-content-center">
+<img style="margin-bottom: 10px; width: 130px;" src="https://raw.githubusercontent.com/EmanueleApostolo/Beta-Consulenze-Economiche/main/static/images/hammer%202.png">
+</div>
+<div class="row" style="color: #142d4c">
+<h6 style="color: black; margin-top: 10px; font-size: 20px;">Arbitrati</h6>
+</div>
+</a>
+</div>
+<div class="col-lg-3 ">
+<div class="row">
+</div>
+<div class="row">
+</div>
+</div>
+</div>
+
+
+</div>
+
+
+<!-- Sezione la nostra attività mostrata quando lo screen size è da smartphone -->
+<div class="container mt-2 d-lg-none" style="color: #142d4c;" >
+
+<div class="row" style="margin-top: 40px">
+<div class="col justify-content-center text-center">
+<h2><strong>Aree di attività</strong> <i class="bi bi-search"></i></h2>
+</div>
+</div>
+
+<div class="row" style="margin-top: 20px">
+
+<div class="col justify-content-center text-center">
+<a type="button" style="text-decoration:none; margin-top: 2px" href="/ass_agcm">
+<div class="row" style="color: #142d4c">
+<i class="bi bi-shield-shaded" style="font-size: 50px;"></i>
+</div>
+<div class="row" style="color: #142d4c">
+<h6 style="color: black;">Assistenza in procedimenti <br>antitrust con AGCM</h6>
+</div>
+</a>
+</div>
+<div class="col justify-content-center text-center">
+<a type="button" style="text-decoration:none; margin-top: 2px" href="/danni">
+<div class="row" style="color: #142d4c">
+<i class="bi bi-pie-chart-fill" style="font-size: 50px;"></i>
+</div>
+<div class="row" style="color: #142d4c;">
+<h6 style="color: black;">Identificazione e quantificazione <br>danni antitrust, IP e contratti</h6>
+</div>
+</a>
+</div>
+</div>
+
+<div class="row" style="margin-top: 10px">
+<div class="col justify-content-center text-center">
+<a type="button" style="text-decoration:none; margin-top: 2px" href="/energia">
+<div class="row" style="color: #142d4c">
+<i class="bi bi-battery-charging" style="font-size: 50px;"></i>
+</div>
+<div class="row" style="color: #142d4c">
+<h6 style="color: black;">Mercati <br> dell'energia</h6>
+</div>
+</a>
+</div>
+<div class="col justify-content-center text-center">
+<a type="button" style="text-decoration:none; margin-top: 2px" >
+<div class="row" style="color: #142d4c">
+<i class="bi bi-lightbulb" style="font-size: 50px;"></i>
+</div>
+<div class="row" style="color: #142d4c">
+<h6 style="color: black;">Proprietà intelletuale: <br> valutazione e contenzioso</h6>
+</div>
+</a>
+</div>
+</div>
+
+<div class="row" style="margin-top: 10px">
+<div class="col justify-content-center text-center">
+<a type="button" style="text-decoration:none; margin-top: 2px" href="/regolatorio">
+<div class="row" style="color: #142d4c">
+<i class="bi bi-clipboard-check" style="font-size: 50px;"></i>
+</div>
+<div class="row" style="color: #142d4c">
+<h6 style="color: black;">Consulenza <br> regolatoria</h6>
+</div>
+</a>
+</div>
+<div class="col justify-content-center text-center">
+<a type="button" style="text-decoration:none; margin-top: 2px" href="/aiuti_stato">
+<div class="row" style="color: #142d4c">
+<i class="bi bi-umbrella-fill" style="font-size: 50px;"></i>
+</div>
+<div class="row" style="color: #142d4c">
+<h6 style="color: black;">Aiuti <br> di stato</h6>
+</div>
+</a>
+</div>
+</div>
+
+<div class="row" style="margin-top: 30px">
+<div class="col justify-content-center text-center">
+<a type="button" style="text-decoration:none; margin-top: 2px" href="/arbitrati">
+<div class="row justify-content-center">
+<img style="margin-bottom: 5px; width: 100px;" src="https://raw.githubusercontent.com/EmanueleApostolo/Beta-Consulenze-Economiche/main/static/images/hammer%202.png">
+</div>
+<div class="row" style="color: #142d4c">
+<h6 style="color: black; margin-top: 10px;">Arbitrati</h6>
+</div>
+</a>
+</div>
+<div class="col justify-content-center text-center">
+</div>
+</div>
+
+</div>
+
+<!-- Sezione pubblicazioni mostrata quando lo screen size è da pc o smartphone (cambia solo il titolo) -->
+<div class="container mt-4" style="color: #142d4c;" >
+
+ <div class="row" style="margin-top: 60px">
+ <div class="col justify-content-center text-center d-lg-none">
+ <h2><strong>Pubblicazioni</strong> <i class="bi bi-mortarboard"></i></h2>
+ </div>
+<div class="col-lg-2 d-none d-lg-block">
+</div>
+<div class="col-lg-8 d-none d-lg-block">
+<h1 style="margin-left: -60px"><strong>Pubblicazioni</strong> <i class="bi bi-mortarboard"></i></h1>
+</div>
+</div>
+
+<div class="row" style="margin-top: 20px;">
+<div class="col-lg-2">
+</div>
+<div class="col-lg-8">
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" >
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="font-size: 20px;">
+         <i class="bi bi-1-square-fill" style="color: #142d4c;"></i> &nbsp; Aiuti di stato
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+      <div class="row">
+      <div class="col-lg-1" style="margin-right: -35px">
+      <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+      </div>
+      <div class="col">
+        M. Nicolini, C. Scarpa e P. Valbonesi, <strong> “Determinants of State Aid to Firms: The case of the European Automotive Industry” </strong> - <i> Industrial and Corporate Change, 2016 </i>
+        </div>
+        </div>
+         <div class="row mt-3">
+         <div class="col-lg-1" style="margin-right: -35px">
+         <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+         </div>
+         <div class="col">
+          M. Nicolini, C. Scarpa e P. Valbonesi, <strong>“State aid to the car industry: money in search of a strategy”</strong> - <i> Journal of Industry, Competition and Trade, p. 67-87, 2013 </i>
+           </div>
+           </div>
+           <div class="row mt-3">
+           <div class="col-lg-1" style="margin-right: -35px">
+           <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+           </div>
+           <div class="col">
+           M. Nicolini e C. Scarpa,  <strong>“Quale prezzo per quattro ruote?” </strong> -<i> Equilibri - Rivista per lo sviluppo sostenibile, 2010, p. 181-187 </i>
+             </div>
+             </div>
+     </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"  style="font-size: 20px;">
+        
+         <!-- Da mostrare con visione pc -->
+         <div class="d-none d-lg-block" style="column-width: 32px;"> <i class="bi bi-2-square-fill" style="color: #142d4c;"></i></div><div class="col d-none d-lg-block">  Analisi dei processi competitivi</div>
+          
+        
+        <!-- Da mostrare con visione smartphone -->
+        <div class="d-lg-none" style="column-width: 32px; margin-bottom: 23px;"> <i class="bi bi-2-square-fill" style="color: #142d4c;"></i></div><div class="col d-lg-none">  Analisi dei processi <br> competitivi</div>
+         
+      
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <div class="row">
+        <div class="col-lg-1" style="margin-right: -35px">
+        <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+        </div>
+        <div class="col">
+         A. Boitani, M. Nicolini e C. Scarpa, <strong>“Do Competition and Ownership Matter? Evidence from Local Public Transport in Europe”</strong> - <i>Applied Economics, vol. 45 (11), p. 1419-1434, 2013</i>
+          </div>
+          </div>
+           <div class="row mt-3">
+           <div class="col-lg-1" style="margin-right: -35px">
+           <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+           </div>
+           <div class="col">
+           C. Scarpa, <strong>“Proprietà intellettuale e misurazione del danno: alcuni problemi applicativi” </strong> <br>- <i> Il diritto industriale, 2012 </i>
+             </div>
+             </div>
+              <div class="row mt-3">
+              <div class="col-lg-1" style="margin-right: -35px">
+              <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+              </div>
+              <div class="col">
+              C. Scarpa, <strong>“Modernizzazione della PA o abuso di posizione dominante? L’evoluzione normativa attorno all’Agenzia del territorio” </strong> - <i> Mercato, concorrenza, regole, 1, 2011 </i>
+                </div>
+                </div>
+                 <div class="row mt-3">
+                 <div class="col-lg-1" style="margin-right: -35px">
+                 <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+                 </div>
+                 <div class="col">
+                  	C. Scarpa, <strong>“Tutela (ex-ante) della concorrenza e protezione dell’acquirente: il rischio di un eccesso di tutela” </strong> - <i> M. Grillo (a cura di) Mercati finanziari e protezione del consumatore, Brioschi, Milano, 2010 </i>
+                   </div>
+                   </div>
+                   <div class="row mt-3">
+                   <div class="col-lg-1" style="margin-right: -35px">
+                   <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+                   </div>
+                   <div class="col">
+                    	F. Boffa e C. Scarpa, <strong>“An Anticompetitive Effect of Eliminating Transport Barriers in Network Markets”</strong>
+                        <i>Review of Industrial Organization, vol. 34(2), p.115-133, 2009 </i>
+                     </div>
+                     </div>
+                     <div class="row mt-3">
+                     <div class="col-lg-1" style="margin-right: -35px">
+                     <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+                     </div>
+                     <div class="col">
+	C. Scarpa, <strong>“Recensione di <i>Competition policy</i> di Massimo Motta”</strong> -
+<i>Rivista di Politica Economica, 2006</i>   </div>
+                       </div>
+                       <div class="row mt-3">
+                       <div class="col-lg-1" style="margin-right: -35px">
+                       <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+                       </div>
+                       <div class="col">
+                        	R. Faini, J. Haskel, G. Barba Navaretti, C. Scarpa e C. Wey, <strong>“Contrasting Europe’s decline: do product market reforms help?”</strong>
+- <i> T. Boeri, M. Castanheira, R. Faini e V. Galasso, (a cura di) Structural reforms without prejudices, Oxford University Press, 2006 </i>
+                         </div>
+                         </div>
+                         <div class="row mt-3">
+                         <div class="col-lg-1" style="margin-right: -35px">
+                         <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+                         </div>
+                         <div class="col">
+                          	L. Lambertini e C. Scarpa, <strong>“MQS Regulation and Predatory Behaviour”</strong>
+- <i> L. Lambertini (a cura di) The Economics of Vertically Differentiated Markets, E. Elgar, Northampton, Mass., 2006 </i>                           </div>
+                           </div>
+                           <div class="row mt-3">
+                           <div class="col-lg-1" style="margin-right: -35px">
+                           <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+                           </div>
+                           <div class="col">
+                            	A. Boitani, P. Panteghini, L. Pellegrini, M. Ponti e C. Scarpa, <strong>“Come far ripartire le liberalizzazioni nei servizi” </strong>
+- <i> T. Boeri, R. Faini, A. Ichino, G. Pisauro e C. Scarpa (a cura di) <br>Oltre il declino , Il Mulino, Bologna, 2005 </i>                            </div>
+                             </div>
+                             <div class="row mt-3">
+                             <div class="col-lg-1" style="margin-right: -35px">
+                             <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+                             </div>
+                             <div class="col">
+                              	C. Scarpa, <strong>“La maturità dell’antitrust e la transizione difficile”</strong>
+- <i>Economia e politica industriale, 2005 </i>                              </div>
+                               </div>
+                               
+                                   <div class="row mt-3">
+                                   <div class="col-lg-1" style="margin-right: -35px">
+                                   <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+                                   </div>
+                                   <div class="col">
+                                    		D. Carere e C. Scarpa, <strong>“Il protezionismo siderurgico statunitense: un boomerang di acciaio”</strong>
+- <i> Mercato, concorrenza, regole , 1/2005   </i>                         </div>
+                                     </div>
+                                      <div class="row mt-3">
+                                      <div class="col-lg-1" style="margin-right: -35px">
+                                      <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+                                      </div>
+                                      <div class="col">
+                                       	G. Ecchia, L. Lambertini e C. Scarpa, <strong>“On the regulation of vertically differentiated markets through minimum quality standards” </strong>
+      - <i> M. Baldassarri e L. Lambertini (a cura di), Antitrust, Regulation and Competition: Theory and Practice, London, Palgrave-Macmillan, 2003  </i>                       </div>
+                                        </div>
+                                      <div class="row mt-3">
+                                      <div class="col-lg-1" style="margin-right: -35px">
+                                      <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+                                      </div>
+                                      <div class="col">
+                                       		C. Scarpa, <strong>“Anti-competitive effects of minimum quality standards: the role of self-regulation”</strong>
+- <i> G. Amato e L. Laudati (a cura di) The anti-competitive impact of regulation, E. Elgar, 2001   </i>                        </div>
+                                        </div>
+                                        <div class="row mt-3">
+                                        <div class="col-lg-1" style="margin-right: -35px">
+                                        <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+                                        </div>
+                                        <div class="col">
+                                         		C. Scarpa, <strong>“The theory of quality regulation and self-regulation: towards an application to financial markets”</strong>
+- <i>B. Bortolotti and G. Fiorentini, (a cura di) Organized interests and self-regulation, Oxford University Press, Oxford, 1999</i>           </div>
+                                          </div>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="font-size: 20px;">
+       <i class="bi bi-3-square-fill" style="color: #142d4c;"></i> &nbsp; Infrastrutture e finanza
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+      
+        <div class="row">
+        <div class="col-lg-1" style="margin-right: -35px">
+        <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+        </div>
+        <div class="col">
+         A. Savoldi e C. Scarpa, <strong>“Servizi pubblici: i consumatori al centro dell’attenzione“</strong>
+- <i> G. Arachi (a cura di) La finanza pubblica in Italia Rapporto 2016, Il Mulino, Bologna, 2016 </i>
+          </div>
+          </div>
+          
+           <div class="row mt-3">
+           <div class="col-lg-1" style="margin-right: -35px">
+           <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+           </div>
+           <div class="col">
+            A. Savoldi e C. Scarpa, <strong>“Prove tecniche per il riordino dei cieli” </strong>
+ - <i>Looking for changes, Unicredit, N.3, 2013 </i>
+             </div>
+             </div>
+             
+              <div class="row mt-3">
+              <div class="col-lg-1" style="margin-right: -35px">
+              <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+              </div>
+              <div class="col">
+              F. Mazzarella e C. Scarpa, <strong>“Deroghe e periodi transitori nei servizi pubblici”</strong>
+- <i> A. Zanardi (a cura di) La finanza pubblica in Italia Rapporto 2013, Il Mulino, Bologna, 2013 </i>
+                </div>
+                </div>
+                
+                 <div class="row mt-3">
+                 <div class="col-lg-1" style="margin-right: -35px">
+                 <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+                 </div>
+                 <div class="col">
+                 C. Scarpa, <strong>“Commento a <i>Privatizzazioni e liberalizzazioni: i servizi di pubblica utilità fra politica e finanza</i> di A. Cavaliere"</strong>
+- <i> M.C. Guerra e A. Zanardi (a cura di), La finanza pubblica italiana. Rapporto 2010, Il Mulino, Bologna (p.359-74), 2010 </i>
+                   </div>
+                   </div>
+                   
+                    <div class="row mt-3">
+                    <div class="col-lg-1" style="margin-right: -35px">
+                    <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+                    </div>
+                    <div class="col">
+                     C. Cambini, G. Catalano e A. Savoldi, <strong>“L’intervento pubblico nel trasporto ferroviario tra liberalizzazione e esigenze di servizio pubblico”</strong>
+- <i>Mercato, Concorrenza e Regole”, pp. 249‐281, 2009</i>
+                      </div>
+                      </div>
+                      
+                    <div class="row mt-3">
+                    <div class="col-lg-1" style="margin-right: -35px">
+                    <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+                    </div>
+                    <div class="col">
+                     C. Scarpa, <strong>"Il trasporto ferroviario: l’alba di una riforma”</strong>
+- <i> C. Cambini, A. Giannaccari e F. Pammolli (a cura di), Le politiche di liberalizzazione in Italia. Proposte di riforma e linee di interventi settoriali, Il Mulino, Bologna, 2007 </i>
+                      </div>
+                      </div>
+                      
+                         
+                    <div class="row mt-3">
+                    <div class="col-lg-1" style="margin-right: -35px">
+                    <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+                    </div>
+                    <div class="col">
+                     B. Bortolotti, M. Fantini e C. Scarpa, <strong>“Why do Governments privatize abroad?”</strong>
+- <i>International Review of Finance, 2003 </i>                    </div>
+                      </div>
+                      
+                     <div class="row mt-3">
+                     <div class="col-lg-1" style="margin-right: -35px">
+                     <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+                     </div>
+                     <div class="col">
+                      C. Scarpa, <strong>“Cross listing as a privatisation strategy: dealing with the real aspects of financial interdependence”</strong>
+- <i> R. Skidelsky (a cura di) Financial crises, Social Market Foundation, London, 2000  </i>             </div>
+                       </div>  
+                       
+                          <div class="row mt-3">
+                          <div class="col-lg-1" style="margin-right: -35px">
+                          <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+                          </div>
+                          <div class="col">
+                           C. Scarpa, <strong>“La privatizzazione di ENEL: successo o fallimento?”</strong>
+- <i>Energia, n. 4, 1999  </i>         </div>
+                            </div> 
+                        
+ <div class="row mt-3">
+                          <div class="col-lg-1" style="margin-right: -35px">
+                          <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+                          </div>
+                          <div class="col">
+                          C. Scarpa, <strong>“Mercato dei capitali e processi di privatizzazione: alcune note critiche”</strong>
+- <i>Politica Economica, 1993 </i>  </div>
+                            </div>                                             
+          
+      </div>
+    </div>
+  </div>
+   <div class="accordion-item">
+     <h2 class="accordion-header">
+       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" style="font-size: 20px;">
+         <i class="bi bi-4-square-fill" style="color: #142d4c;"></i> &nbsp; Mercati dell'energia
+       </button>
+     </h2>
+     <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+       <div class="accordion-body">
+       
+           <div class="row">
+           <div class="col-lg-1" style="margin-right: -35px">
+           <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+           </div>
+           <div class="col">
+           R. Miniaci, C. Scarpa e P. Valbonesi, <strong>“Benefits to vulnerable consumers in Italian energy markets: a focus on the eligibility criterion”</strong>
+- <i> Jon Strand (ed.) The Economics and Political Economy of Energy Subsides, The MIT Press, forthcoming </i>
+             </div>
+             </div>
+               
+               <div class="row mt-3">
+               <div class="col-lg-1" style="margin-right: -35px">
+               <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+               </div>
+               <div class="col">
+              R. Miniaci, C. Scarpa e P. Valbonesi, <strong>“Energy affordability and the benefits system in Italy”</strong>
+- <i> Energy Policy, 2014 </i>
+                 </div>
+                 </div>
+                 
+                 <div class="row mt-3">
+                 <div class="col-lg-1" style="margin-right: -35px">
+                 <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+                 </div>
+                 <div class="col">
+                M. Polo e C. Scarpa, <strong>“Liberalizing the Gas Industry: Take or Pay Contracts, Retail Competition and Wholesale Trade”</strong>
+- <i> International Journal of Industrial Organization, vol. 31, p. 64-82, 2013 </i>
+                   </div>
+                   </div>
+                   
+                 <div class="row mt-3">
+                 <div class="col-lg-1" style="margin-right: -35px">
+                 <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+                 </div>
+                 <div class="col">
+               G. Landi e C. Scarpa, <strong> “Il livello ottimale degli incentivi verso la grid parity” </strong>
+- <i> G. Napolitano e A. Zoppini (a cura di), Regole e mercato delle energie rinnovabili, Il Mulino, Bologna, 2013 </i>
+                   </div>
+                   </div>
+                   
+                 <div class="row mt-3">
+                 <div class="col-lg-1" style="margin-right: -35px">
+                 <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+                 </div>
+                 <div class="col">
+               C. Scarpa, <strong>“L’industria del gas: aspetti economici”</strong>
+- <i> Enciclopedia del gas e del petrolio, Treccani, Roma, 2008 </i>
+                   </div>
+                   </div>
+                   
+                 <div class="row mt-3">
+                 <div class="col-lg-1" style="margin-right: -35px">
+                 <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+                 </div>
+                 <div class="col">
+               R. Miniaci, C. Scarpa e P. Valbonesi, <strong>“Measuring the affordability of basic public utility services in Italy” </strong>
+- <i> Giornale degli Economisti e Annali di Economia, 2008 </i>
+                   </div>
+                   </div>
+                   
+                 <div class="row mt-3">
+                 <div class="col-lg-1" style="margin-right: -35px">
+                 <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+                 </div>
+                 <div class="col">
+              R. Miniaci, C. Scarpa e P. Valbonesi, <strong>“Distributional effects of price reforms in the Italian utility markets"</strong>
+- <i> Fiscal Studies, 2008 </i>
+                   </div>
+                   </div>
+                   
+                 <div class="row mt-3">
+                 <div class="col-lg-1" style="margin-right: -35px">
+                 <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+                 </div>
+                 <div class="col">
+              M. Polo e C. Scarpa, <strong>“The liberalization of energy markets in Europe”</strong>
+- <i> F. Padoa Schioppa (a cura di) Annual report on monitoring Italy , ISAE, Roma, 2003 </i>
+                   </div>
+                   </div>
+                   
+                 <div class="row mt-3">
+                 <div class="col-lg-1" style="margin-right: -35px">
+                 <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+                 </div>
+                 <div class="col">
+             C. Scarpa, <strong> “Dopo il black-out” </strong>
+ - <i> Energia , vol. 24, pp. 16-23, 2003 </i>
+                   </div>
+                   </div>
+                   
+                 <div class="row mt-3">
+                 <div class="col-lg-1" style="margin-right: -35px">
+                 <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+                 </div>
+                 <div class="col">
+             C. Scarpa, <strong>“Energia: dal pubblico al privato. E ritorno” </strong>
+ - <i> Energia, vol. 23, 2002 </i>
+                   </div>
+                   </div>
+                   
+                 <div class="row mt-3">
+                 <div class="col-lg-1" style="margin-right: -35px">
+                 <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+                 </div>
+                 <div class="col">
+             C. Scarpa <strong>“Titolo V e politica energetica: per favore, riformiamo la riforma”</strong>
+- <i> Mercato concorrenza, regole, vol.4, 2002 </i>
+                   </div>
+                   </div>
+                   
+                 <div class="row mt-3">
+                 <div class="col-lg-1" style="margin-right: -35px">
+                 <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+                 </div>
+                 <div class="col">
+             M. Polo e C. Scarpa <strong>“Gas: quanta concorrenza passerà nei tubi?”</strong>
+- <i> Mercato concorrenza, regole, vol.2, 2000 </i>
+                   </div>
+                   </div>
+                   
+                 <div class="row mt-3">
+                 <div class="col-lg-1" style="margin-right: -35px">
+                 <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+                 </div>
+                 <div class="col">
+           C. Scarpa, <strong>“Chi ha paura della concorrenza nel settore elettrico? Note critiche al Decreto Bersani” </strong>
+- <i> Mercato, concorrenza regole, vol. 1, n.1, 1999 </i>
+                   </div>
+                   </div>
+                   
+                 <div class="row mt-3">
+                 <div class="col-lg-1" style="margin-right: -35px">
+                 <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+                 </div>
+                 <div class="col">
+            C. Scarpa, <strong>"Il settore elettrico”</strong>
+- <i> Terzo rapporto sui servizi di pubblica utilità in Italia, Fondazione Rosselli, Milano, 1999  </i>
+                   </div>
+                   </div>
+                   
+                 <div class="row mt-3">
+                 <div class="col-lg-1" style="margin-right: -35px">
+                 <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+                 </div>
+                 <div class="col">
+            M. Polo e C. Scarpa, <strong>“La riforma del settore elettrico in Italia: Una privatizzazione al buio?”</strong>
+- <i> F. Giavazzi, A. Penati and G. Tabellini (a cura di), Liberalizzazione dei mercati e privatizzazioni, Il Mulino, Bologna, 1998 </i>
+                   </div>
+                   </div>
+                   
+                 <div class="row mt-3">
+                 <div class="col-lg-1" style="margin-right: -35px">
+                 <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+                 </div>
+                 <div class="col">
+C. Scarpa, <strong>“The attempts of regulatory authorities to enhance the efficiency of energy sectors in Europe: threats or incentives?”</strong>
+- <i>Revue de l’energie 1998, vol. 49 </i>
+                   </div>
+                   </div>
+                   
+                 <div class="row mt-3">
+                 <div class="col-lg-1" style="margin-right: -35px">
+                 <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+                 </div>
+                 <div class="col">
+           M. Polo e C. Scarpa, <strong>“The Italian electricity sector between privatization and fear of competition”</strong>
+- <i> M. Baldassarri, A. Macchiati e D. Piacentino (a cura di) The privatisation of public utilities. The case of Italy, MacMillan, London, 1996 </i>
+                   </div>
+                   </div>
+         
+       </div>
+     </div>
+   </div>
+   
+   <div class="accordion-item">
+     <h2 class="accordion-header">
+       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive" style="font-size: 20px;">
+         <i class="bi bi-5-square-fill" style="color: #142d4c;"></i> &nbsp; Teoria della regolazione
+       </button>
+     </h2>
+     <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+       <div class="accordion-body">
+        
+       <div class="row">
+                 <div class="col-lg-1" style="margin-right: -35px">
+                 <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+                 </div>
+                 <div class="col">
+           G. Calzolari e C. Scarpa, <strong>“Conglomerates and regulation”</strong>
+- <i>Economic Inquiry, 2016</i>
+                   </div>
+                   </div>
+                   
+         <div class="row mt-3">
+                   <div class="col-lg-1" style="margin-right: -35px">
+                   <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+                   </div>
+                   <div class="col">
+            R. Fiocco e C. Scarpa, <strong>“Regulating Markets with Interdependent Demands”</strong>
+- <i>Information Economics and Policy, 2014</i>
+                     </div>
+                     </div>
+                     
+         <div class="row mt-3">
+                 <div class="col-lg-1" style="margin-right: -35px">
+                 <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+                 </div>
+                 <div class="col">
+          G. Calzolari e C. Scarpa, <strong>“Footloose monopolies: regulating a national champion”</strong>
+- <i>Journal of Economics and Management Strategy, 2009</i>
+                   </div>
+                   </div>
+                   
+         <div class="row mt-3">
+                 <div class="col-lg-1" style="margin-right: -35px">
+                 <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+                 </div>
+                 <div class="col">
+         C. Scarpa, <strong>“Dieci anni di riforme dei grandi settori a rete. Tanto rumore per cosa?”</strong>
+- <i>Mercato, concorrenza, regole, vol. 10(1), 2009</i>
+                   </div>
+                   </div>
+                   
+         <div class="row mt-3">
+                 <div class="col-lg-1" style="margin-right: -35px">
+                 <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+                 </div>
+                 <div class="col">
+         M. Moretto, P. Panteghini e C. Scarpa, <strong>“Profit Sharing and Investment by Regulated Utilities: A Welfare Analysis”</strong>
+- <i>Review of Financial Economics, 2008</i>
+                   </div>
+                   </div>
+                   
+         <div class="row mt-3">
+                 <div class="col-lg-1" style="margin-right: -35px">
+                 <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+                 </div>
+                 <div class="col">
+        P. Panteghini e C. Scarpa, <strong>“Political Pressures and the Credibility of Regulation: Can Profit Sharing Mitigate Regulatory Risk?”</strong>
+- <i>International Review of Economics, 2008</i>
+                   </div>
+                   </div>
+ 
+          <div class="row mt-3">
+                  <div class="col-lg-1" style="margin-right: -35px">
+                  <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+                  </div>
+                  <div class="col">
+        P. Panteghini e C. Scarpa, <strong>“The distributional efficiency of alternative regulatory regimes: a real option approach”</strong>
+- <i>International Tax and Public Finance, 2003</i>
+                    </div>
+                    </div>
+ 
+          <div class="row mt-3">
+                  <div class="col-lg-1" style="margin-right: -35px">
+                  <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+                  </div>
+                  <div class="col">
+        C. Scarpa, <strong>"Regulation as a Bargaining Process: Negotiation over Price and Cost-Reducing Investments”</strong>
+- <i>Oxford Economic Papers, 1994</i>
+                    </div>
+                    </div>
+ 
+          <div class="row mt-3">
+                  <div class="col-lg-1" style="margin-right: -35px">
+                  <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+                  </div>
+                  <div class="col">
+       C. Scarpa, <strong>“On the Effectiveness of Average Cost Pricing Regulation in the Presence of Learning-by-Doing”</strong>
+- <i>Giornale degli economisti e Annali di Economia, 48(1-2), 1989</i>
+                    </div>
+                    </div>
+   
+</div>
+</div>
+</div>
+
+ <div class="accordion-item">
+   <h2 class="accordion-header">
+     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix" style="font-size: 20px;">
+       <i class="bi bi-6-square-fill" style="color: #142d4c;"></i> &nbsp; Servizi pubblici locali
+     </button>
+   </h2>
+  <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+    <div class="accordion-body">
+    
+             <div class="row">
+                     <div class="col-lg-1" style="margin-right: -35px">
+                     <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+                     </div>
+                     <div class="col">
+         A. Savoldi e C. Scarpa, <strong>“Servizi pubblici: l’accidentato cammino verso la concorrenza"</strong>
+- <i> <br>G. Arachi (a cura di) La finanza pubblica in Italia Rapporto 2015, Il Mulino, Bologna, 2015 </i>
+             </div>
+            </div>
+            
+               <div class="row mt-3">
+                                 <div class="col-lg-1" style="margin-right: -35px">
+                                 <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+                                 </div>
+                                 <div class="col">
+                     C. Scarpa, <strong>“I servizi pubblici: focus sui prezzi ma gli investimenti non possono attendere”</strong>
+- <i> <br>A. Zanardi (a cura di) La finanza pubblica in Italia Rapporto 2014, Il Mulino, Bologna, 2014</i>
+                         </div>
+                        </div>
+
+ <div class="row mt-3">
+                   <div class="col-lg-1" style="margin-right: -35px">
+                   <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+                   </div>
+                   <div class="col">
+       C. Scarpa, <strong>“I servizi pubblici: nuove autorità, regole migliori, ma la solita incertezza”</strong>
+- <i> A. Zanardi (a cura di) La finanza pubblica in Italia Rapporto 2012, Il Mulino, Bologna, 2012 </i>
+           </div>
+          </div>                       
+
+ <div class="row mt-3">
+                   <div class="col-lg-1" style="margin-right: -35px">
+                   <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+                   </div>
+                   <div class="col">
+      C. Scarpa, B. Bortolotti, P. Bianchi e L. Pellizzola, <strong>“Comuni SpA. Il capitalismo municipale in Italia”</strong>
+- <i>Il Mulino, Bologna, 2009</i>
+           </div>
+          </div>
+
+ <div class="row mt-3">
+                   <div class="col-lg-1" style="margin-right: -35px">
+                   <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+                   </div>
+                   <div class="col">
+       C. Scarpa, <strong>“La nozione di servizio pubblico locale e le riforme orizzontali”</strong>
+- <i> L. Paolazzi (ed.) La riforma dei servizi pubblici locali, Roma, 2008</i>
+           </div>
+          </div>
+
+ <div class="row mt-3">
+                   <div class="col-lg-1" style="margin-right: -35px">
+                   <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+                   </div>
+                   <div class="col">
+      C. Scarpa, B. Bortolotti e L. Pellizzola, <strong>“Il Comune Azionista: un’analisi empirica del capitalismo municipale in Italia”</strong>
+- <i>Mercato, Concorrenza, Regole, 2007</i>
+           </div>
+          </div>
+
+ <div class="row mt-3">
+                   <div class="col-lg-1" style="margin-right: -35px">
+                   <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+                   </div>
+                   <div class="col">
+     C. Scarpa, <strong>“Imprese pubbliche locali di servizi: una realtà internazionale”</strong>
+- <i>CT City Issues, nr. 3/2006</i>
+           </div>
+          </div>
+
+ <div class="row mt-3">
+                   <div class="col-lg-1" style="margin-right: -35px">
+                   <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+                   </div>
+                   <div class="col">
+     M. Polo e C. Scarpa, <strong>“Le imprese multiutility”</strong>,
+- <i> G. Muraro e P. Valbonesi (a cura di) I servizi idrici tra privatizzazione e regolamentazione, Carocci, Roma, 2003</i>
+           </div>
+          </div>
+
+ <div class="row mt-3">
+                   <div class="col-lg-1" style="margin-right: -35px">
+                   <i class="bi bi-bookmark-fill" style="color: #142d4c;"></i>
+                   </div>
+                   <div class="col">
+      C. Scarpa, <strong>“I costi di distribuzione dell’energia elettrica in Italia: un’analisi quantitativa”</strong>
+- <i>Economia delle fonti di energia e dell’ambiente, 1998</i>
+           </div>
+          </div>
+
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+
+{% endblock %}
